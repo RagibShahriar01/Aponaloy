@@ -1,0 +1,14 @@
+C:\Users\msi\source\repos\RealState\bin\Debug\RealState.exe.config
+C:\Users\msi\source\repos\RealState\bin\Debug\RealState.exe
+C:\Users\msi\source\repos\RealState\bin\Debug\RealState.pdb
+C:\Users\msi\source\repos\RealState\obj\Debug\RealState.csproj.AssemblyReference.cache
+C:\Users\msi\source\repos\RealState\obj\Debug\RealState.AllClass.Flats.resources
+C:\Users\msi\source\repos\RealState\obj\Debug\RealState.AllClass.SignUp.resources
+C:\Users\msi\source\repos\RealState\obj\Debug\RealState.SignIn.resources
+C:\Users\msi\source\repos\RealState\obj\Debug\RealState.Properties.Resources.resources
+C:\Users\msi\source\repos\RealState\obj\Debug\RealState.csproj.GenerateResource.cache
+C:\Users\msi\source\repos\RealState\obj\Debug\RealState.csproj.CoreCompileInputs.cache
+C:\Users\msi\source\repos\RealState\obj\Debug\RealState.exe
+C:\Users\msi\source\repos\RealState\obj\Debug\RealState.pdb
+C:\Users\msi\source\repos\RealState\obj\Debug\RealState.exe.config
+C:\Users\msi\source\repos\RealState\obj\Debug\RealState.AllClass.AdminPannel.resources
