@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9877724E-5CDB-4FEA-9027-6B2FE418C24D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>APONALOY</RootNamespace>
+    <AssemblyName>APONALOY</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllClass\AdminPannel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\AdminPannel.Designer.cs">
+      <DependentUpon>AdminPannel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\AppointmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\AppointmentForm.Designer.cs">
+      <DependentUpon>AppointmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\AppointmentFormRent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\AppointmentFormRent.Designer.cs">
+      <DependentUpon>AppointmentFormRent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\Buy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\Buy.Designer.cs">
+      <DependentUpon>Buy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\Buy1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\Buy1.Designer.cs">
+      <DependentUpon>Buy1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\Buy2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\Buy2.Designer.cs">
+      <DependentUpon>Buy2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\Buy3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\Buy3.Designer.cs">
+      <DependentUpon>Buy3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\Buy4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\Buy4.Designer.cs">
+      <DependentUpon>Buy4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\Buy5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\Buy5.Designer.cs">
+      <DependentUpon>Buy5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\Buy6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\Buy6.Designer.cs">
+      <DependentUpon>Buy6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\Flats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\Flats.Designer.cs">
+      <DependentUpon>Flats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\MyAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\MyAccount.Designer.cs">
+      <DependentUpon>MyAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\RecoverPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\RecoverPassword.Designer.cs">
+      <DependentUpon>RecoverPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\Rent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\Rent.Designer.cs">
+      <DependentUpon>Rent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\Rent1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\Rent1.Designer.cs">
+      <DependentUpon>Rent1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\Rent2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\Rent2.Designer.cs">
+      <DependentUpon>Rent2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\Rent3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\Rent3.Designer.cs">
+      <DependentUpon>Rent3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\Rent4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\Rent4.Designer.cs">
+      <DependentUpon>Rent4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\Rent5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\Rent5.Designer.cs">
+      <DependentUpon>Rent5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\Rent6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\Rent6.Designer.cs">
+      <DependentUpon>Rent6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClass\SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClass\SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseClass\DataAccess.cs" />
+    <Compile Include="GetSet\Appointment.cs" />
+    <Compile Include="GetSet\Profile.cs" />
+    <Compile Include="GetSet\User.cs" />
+    <Compile Include="SignInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignInForm.Designer.cs">
+      <DependentUpon>SignInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AllClass\AdminPannel.resx">
+      <DependentUpon>AdminPannel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\AppointmentForm.resx">
+      <DependentUpon>AppointmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\AppointmentFormRent.resx">
+      <DependentUpon>AppointmentFormRent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\Buy.resx">
+      <DependentUpon>Buy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\Buy1.resx">
+      <DependentUpon>Buy1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\Buy2.resx">
+      <DependentUpon>Buy2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\Buy3.resx">
+      <DependentUpon>Buy3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\Buy4.resx">
+      <DependentUpon>Buy4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\Buy5.resx">
+      <DependentUpon>Buy5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\Buy6.resx">
+      <DependentUpon>Buy6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\Flats.resx">
+      <DependentUpon>Flats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\MyAccount.resx">
+      <DependentUpon>MyAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\RecoverPassword.resx">
+      <DependentUpon>RecoverPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\Rent.resx">
+      <DependentUpon>Rent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\Rent1.resx">
+      <DependentUpon>Rent1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\Rent2.resx">
+      <DependentUpon>Rent2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\Rent3.resx">
+      <DependentUpon>Rent3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\Rent4.resx">
+      <DependentUpon>Rent4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\Rent5.resx">
+      <DependentUpon>Rent5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\Rent6.resx">
+      <DependentUpon>Rent6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClass\SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SignInForm.resx">
+      <DependentUpon>SignInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SIGN-B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UPSIGN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JOIN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UPSide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B-BUY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B-RENT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Account.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SignOut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-09-20 002433.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UPLayout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %285%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %285%291.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%291.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1505693416388-ac5ce068fe85.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1512918728675-ed5a9ecdebfd.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chastity-cortijo-R-w5Q-4Mqm0-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B-Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spacejoy-ffFnddUEaL4-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toa-heftiba-OBI_2PEfwlA-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lotus-design-n-print-8qNuR1lIv_k-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m-f-s-qd5yc3hpaco-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\naksha-banwao-b0DHABrkRcM-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spacejoy-eyEy5YZhSvU-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spacejoy-FX61rYaAfCQ-unsplash.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
